@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="algaeGreen1">#7DCEA0</color>
+    <color name="algaeGreen2">#A9DFBF</color>
+    <color name="algaeGreen_dark">#239B56</color>
+    <color name="orange">#F5B041</color>
+</resources>
