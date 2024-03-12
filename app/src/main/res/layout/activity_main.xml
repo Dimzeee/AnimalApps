@@ -37,11 +37,12 @@
         android:id="@+id/line2"
         android:layout_width="184dp"
         android:layout_height="28dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:text="This lets [Partner]:"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/headingLine2" />
 
@@ -49,17 +50,18 @@
         android:id="@+id/line3"
         android:layout_width="246dp"
         android:layout_height="30dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="136dp"
         android:text="Recieve personal info"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/line2"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line2" />
 
     <EditText
         android:id="@+id/entry1"
-        android:layout_width="378dp"
-        android:layout_height="47dp"
+        android:layout_width="377dp"
+        android:layout_height="64dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:ems="10"
@@ -73,27 +75,27 @@
         android:id="@+id/line4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="Access payment methods"
         android:textSize="18sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/entry1" />
 
     <EditText
         android:id="@+id/entry2"
-        android:layout_width="372dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="370dp"
+        android:layout_height="63dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Access last 4 digits of your available payment methods"
         android:inputType="text"
         android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/line4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/line4" />
 
     <TextView
         android:id="@+id/textView4"
