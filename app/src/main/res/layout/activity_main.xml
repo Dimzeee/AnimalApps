@@ -38,21 +38,23 @@
         android:layout_width="184dp"
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
         android:text="This lets [Partner]:"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintTop_toBottomOf="@+id/headingLine2" />
 
     <TextView
         android:id="@+id/line3"
         android:layout_width="246dp"
         android:layout_height="30dp"
+        android:layout_marginTop="32dp"
         android:text="Recieve personal info"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="353dp" />
+        app:layout_constraintTop_toBottomOf="@+id/line2"
+        tools:layout_editor_absoluteX="8dp" />
 
     <EditText
         android:id="@+id/entry1"
@@ -89,7 +91,6 @@
         android:hint="Access last 4 digits of your available payment methods"
         android:inputType="text"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line4"
         app:layout_constraintVertical_bias="0.0" />
@@ -98,11 +99,12 @@
         android:id="@+id/textView4"
         android:layout_width="388dp"
         android:layout_height="82dp"
+        android:layout_marginTop="68dp"
         android:text="This website or app is responsible for the use of your info in accordance with its Privacy Statement Terms and Conditions. You can stop future sharing of your info at any time in your  PenguinPal Profile "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="672dp" />
+        app:layout_constraintTop_toBottomOf="@+id/entry2" />
 
     <Button
         android:id="@+id/logInButton"

@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/algaeGreen2</item>
         <item name="colorSecondary">@color/orange</item>
         <item name="colorSecondaryVariant">@color/algaeGreen1</item>
+
     </style>
 
     <style name="Theme.AnimalApps" parent="Base.Theme.AnimalApps" />
